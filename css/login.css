@@ -1,0 +1,47 @@
+:root{
+    --main-bg:#FF6347;
+  }
+  
+  .main-bg {
+    background: var(--main-bg) !important;
+  }
+  
+  input:focus, button:focus {
+    border: 1px solid var(--main-bg) !important;
+    box-shadow: none !important;
+  }
+  
+  .form-check-input:checked {
+    background-color: var(--main-bg) !important;
+    border-color: var(--main-bg) !important;
+  }
+  
+  .card, .btn, input{
+    border-radius:2% !important;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 0.7rem;
+    margin-bottom: 1.5rem;
+    color: white;
+    font-size: 100%;
+  }
+
+  h2 {
+    text-align: center;
+    margin-top: 0.7rem;
+    margin-bottom: 1.5rem;
+    color: black;
+  }
+  button {
+    margin: 2rem;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: crimson;
+}
